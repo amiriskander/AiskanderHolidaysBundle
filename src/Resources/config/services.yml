@@ -1,0 +1,4 @@
+services:
+#    aiskander_holidays.example:
+#        class: Aiskander\HolidaysBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

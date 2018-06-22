@@ -1,0 +1,14 @@
+<div class="page-header">
+    <h1>Create New Holiday</h1>
+    <div class="pull-right">
+        <a href="{{ path('holiday_index') }}">
+            <span class="label label-default">Back to the list</span>
+        </a>
+    </div>
+</div>
+
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <input type="submit" class="btn btn-success" value="Create" />
+{{ form_end(form) }}
+

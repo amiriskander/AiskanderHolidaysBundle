@@ -1,0 +1,10 @@
+{{ form_start(bulk_form) }}
+{% for form in forms %}
+    {{ form_widget(form) }}
+    <input type="submit" class="ajax-holiday-submit" value="Save" />
+{% endfor %}
+{{ form_end(bulk_form) }}
+
+<script type="application/javascript">
+
+</script>

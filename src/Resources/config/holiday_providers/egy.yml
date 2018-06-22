@@ -1,0 +1,130 @@
+{
+  "fixed": [
+    {
+      "name": "Coptic Christmas",
+      "calendar": "coptic",
+      "date": "29 Koiak",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Revolution Day / National Police Day",
+      "calendar": "gregorian",
+      "date": "25 January",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Sinai Liberation Day",
+      "calendar": "gregorian",
+      "date": "25 April",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Labour  Day",
+      "calendar": "gregorian",
+      "date": "1 May",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Revolution Day",
+      "calendar": "gregorian",
+      "date": "30 June",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Revolution Day",
+      "calendar": "gregorian",
+      "date": "23 July",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Armed Forces Day",
+      "calendar": "gregorian",
+      "date": "6 October",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Islamic New Year",
+      "calendar": "hijri",
+      "date": "1-1",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Birthday of the Prophet Muhammad",
+      "calendar": "hijri",
+      "date": "12 Rabī‘ al-awwal",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Fitr 1",
+      "calendar": "hijri",
+      "date": "1 Shawwal",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Fitr 2",
+      "calendar": "hijri",
+      "date": "2 Shawwal",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Fitr 3",
+      "calendar": "hijri",
+      "date": "3 Shawwal",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Adha 1",
+      "calendar": "hijri",
+      "date": "10 Zul-Higga",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Adha 2",
+      "calendar": "hijri",
+      "date": "11 Zul-Higga",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Adha 3",
+      "calendar": "hijri",
+      "date": "12 Zul-Higga",
+      "target": "all",
+      "off_work": true
+    },
+    {
+      "name": "Eid al-Adha 4",
+      "calendar": "hijri",
+      "date": "13 Zul-Higga",
+      "target": "all",
+      "off_work": true
+    }
+  ],
+  "movable": [
+    {
+      "name": "Easter",
+      "callback": "getOrthodoxEaster",
+      "target": "christians",
+      "off_work": true
+    },
+    {
+      "name": "Sham El Nessim",
+      "callback": "getShamElNessim",
+      "target": "all",
+      "off_work": true
+    }
+  ]
+}

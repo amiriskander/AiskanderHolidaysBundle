@@ -1,0 +1,3 @@
+aiskander_holidays:
+    resource: '@AiskanderHolidaysBundle/Controller/'
+    type: annotation
