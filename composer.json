@@ -1,0 +1,37 @@
+{
+  "description": "Symfony bundle that can be used to manage holidays",
+  "homepage": "https://amiriskander.com/doc/current/bundles/AiskanderHolidaysBundle/index.html",
+  "name": "Aiskander/HolidaysBundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "keywords": ["holiday", "calendar"],
+  "authors": [
+    {
+      "name": "Amir Iskander",
+      "homepage": "https://amiriskander.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/config": "^3.4|^4.0",
+    "symfony/console": "^3.4|^4.0",
+    "symfony/dependency-injection": "^3.4|^4.0",
+    "symfony/framework-bundle": "^3.4|^4.0"
+  },
+  "require-dev": {
+    "doctrine/doctrine-bundle": "^1.8",
+    "doctrine/orm": "^2.3",
+    "friendsofphp/php-cs-fixer": "^2.8",
+    "symfony/phpunit-bridge": "^3.4|^4.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": { "Aiskander\\HolidayBundle\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Aiskander\\HolidayBundle\\Tests\\": "tests/" }
+  }
+}
