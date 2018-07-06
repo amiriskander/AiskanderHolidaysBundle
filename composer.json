@@ -1,7 +1,7 @@
 {
   "description": "Symfony bundle that can be used to manage holidays",
   "homepage": "https://amiriskander.com/doc/current/bundles/AiskanderHolidaysBundle/index.html",
-  "name": "Aiskander/HolidaysBundle",
+  "name": "aiskander/holidays-bundle",
   "type": "symfony-bundle",
   "license": "MIT",
   "keywords": ["holiday", "calendar"],
