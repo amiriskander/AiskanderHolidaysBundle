@@ -29,9 +29,9 @@
     "sort-packages": true
   },
   "autoload": {
-    "psr-4": { "Aiskander\\HolidayBundle\\": "src/" }
+    "psr-4": { "Aiskander\\HolidaysBundle\\": "src/" }
   },
   "autoload-dev": {
-    "psr-4": { "Aiskander\\HolidayBundle\\Tests\\": "tests/" }
+    "psr-4": { "Aiskander\\HolidaysBundle\\Tests\\": "tests/" }
   }
 }
