@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "aiskander\\CalendarHolidaysBundle\\": "",
+            "aiskander\\CalendarHolidaysBundle\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "aiskander\\CalendarHolidaysBundle\\Tests\\": "Tests/",
+            "aiskander\\CalendarHolidaysBundle\\Tests\\": "Tests/"
         }
     }
 }
