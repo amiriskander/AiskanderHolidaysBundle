@@ -1,4 +1,4 @@
-aiskander_holidays:
+aiskander_calendar_holidays:
     resource: '@AiskanderCalendarHolidaysBundle/Controller/'
     type: annotation
     prefix: '/calendar-holiday'
