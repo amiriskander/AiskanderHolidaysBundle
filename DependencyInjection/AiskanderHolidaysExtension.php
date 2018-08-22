@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle\DependencyInjection;
+namespace Aiskander\CalendarHolidaysBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

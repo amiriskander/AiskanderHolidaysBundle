@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle\Repository;
+namespace Aiskander\CalendarHolidaysBundle\Repository;
 
 /**
  * HolidayRepository

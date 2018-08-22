@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle\Form;
+namespace Aiskander\CalendarHolidaysBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -14,13 +14,15 @@ class HolidayType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('date')->add('name')->add('type')->add('provider');
-    }/**
+    }
+
+    /**
      * {@inheritdoc}
      */
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Aiskander\HolidaysBundle\Entity\Holiday'
+            'data_class' => 'Aiskander\CalendarHolidaysBundle\Entity\Holiday'
         ));
     }
 
@@ -29,7 +31,7 @@ class HolidayType extends AbstractType
      */
     public function getBlockPrefix()
     {
-        return 'aiskander_holidaysbundle_holiday';
+        return 'aiskander_calendarholidaysbundle_holiday';
     }
 
 

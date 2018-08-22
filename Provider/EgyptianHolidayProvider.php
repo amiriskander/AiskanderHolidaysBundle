@@ -6,7 +6,7 @@
  * Time: 11:52 PM
  */
 
-namespace Aiskander\HolidaysBundle\Provider;
+namespace Aiskander\CalendarHolidaysBundle\Provider;
 
 use Symfony\Component\Config\Definition\Exception\Exception;
 use Symfony\Component\Config\Exception\FileLocatorFileNotFoundException;

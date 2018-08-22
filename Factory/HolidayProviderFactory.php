@@ -6,7 +6,7 @@
  * Time: 6:20 PM
  */
 
-namespace Aiskander\HolidaysBundle\Factory;
+namespace Aiskander\CalendarHolidaysBundle\Factory;
 
 use Symfony\Component\Config\Definition\Exception\Exception;
 

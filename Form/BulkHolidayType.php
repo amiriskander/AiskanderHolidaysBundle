@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle\Form;
+namespace Aiskander\CalendarHolidaysBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
@@ -54,7 +54,7 @@ class BulkHolidayType extends AbstractType
      */
     public function getBlockPrefix()
     {
-        return 'aiskander_holidaysbundle_bulk_holiday';
+        return 'aiskander_calendarholidaysbundle_bulk_holiday';
     }
 
 

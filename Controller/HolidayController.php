@@ -6,12 +6,12 @@
  * Time: 3:06 PM
  */
 
-namespace Aiskander\HolidaysBundle\Controller;
+namespace Aiskander\CalendarHolidaysBundle\Controller;
 
-use Aiskander\HolidaysBundle\Entity\Holiday;
-use Aiskander\HolidaysBundle\Enum\HolidayProviderEnum;
-use Aiskander\HolidaysBundle\Factory\HolidayProviderFactory;
-use Aiskander\HolidaysBundle\Provider\EgyptianHolidayProvider;
+use Aiskander\CalendarHolidaysBundle\Entity\Holiday;
+use Aiskander\CalendarHolidaysBundle\Enum\HolidayProviderEnum;
+use Aiskander\CalendarHolidaysBundle\Factory\HolidayProviderFactory;
+use Aiskander\CalendarHolidaysBundle\Provider\EgyptianHolidayProvider;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;

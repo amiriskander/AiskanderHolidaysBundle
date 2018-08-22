@@ -6,7 +6,7 @@
  * Time: 3:50 PM
  */
 
-namespace Aiskander\HolidaysBundle\Enum;
+namespace Aiskander\CalendarHolidaysBundle\Enum;
 
 class ReligionEnum
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle;
+namespace Aiskander\CalendarHolidaysBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

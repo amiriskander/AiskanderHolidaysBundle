@@ -6,7 +6,7 @@
  * Time: 6:31 PM
  */
 
-namespace Aiskander\HolidaysBundle\Provider;
+namespace Aiskander\CalendarHolidaysBundle\Provider;
 
 class OfficeHolidaysHolidayProvider implements HolidayProviderInterface
 {

@@ -6,7 +6,7 @@
  * Time: 3:11 PM
  */
 
-namespace Aiskander\HolidaysBundle\Enum;
+namespace Aiskander\CalendarHolidaysBundle\Enum;
 
 class HolidayProviderEnum
 {

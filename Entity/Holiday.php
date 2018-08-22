@@ -1,6 +1,6 @@
 <?php
 
-namespace Aiskander\HolidaysBundle\Entity;
+namespace Aiskander\CalendarHolidaysBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Holiday
  *
  * @ORM\Table(name="holiday")
- * @ORM\Entity(repositoryClass="Aiskander\HolidaysBundle\Repository\HolidayRepository")
+ * @ORM\Entity(repositoryClass="Aiskander\CalendarHolidaysBundle\Repository\HolidayRepository")
  */
 class Holiday
 {
