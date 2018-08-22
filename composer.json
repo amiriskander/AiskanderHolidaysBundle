@@ -1,4 +1,5 @@
 {
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "name": "aiskander/calendar-holidays-bundle",
     "description": "Symfony bundle that can be used to manage holidays",
     "homepage": "https://amiriskander.com/doc/current/bundles/calendar-holidays-bundle/index.html",
