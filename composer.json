@@ -1,38 +1,43 @@
 {
-  "name": "aiskander/calendar-holidays-bundle",
-  "description": "Symfony bundle that can be used to manage holidays",
-  "homepage": "https://amiriskander.com/doc/current/bundles/calendar-holidays-bundle/index.html",
-  "type": "symfony-bundle",
-  "keywords": ["holiday", "calendar", "symfony", "bundle"],
-  "authors": [
-    {
-      "name": "Amir Iskander",
-      "email": "amir@amiriskander.com",
-      "homepage": "https://amiriskander.com"
+    "name": "aiskander/calendar-holidays-bundle",
+    "description": "Symfony bundle that can be used to manage holidays",
+    "homepage": "https://amiriskander.com/doc/current/bundles/calendar-holidays-bundle/index.html",
+    "type": "symfony-bundle",
+    "keywords": ["holiday", "calendar", "symfony", "bundle", "egypt"],
+    "authors": [
+        {
+          "name": "Amir Iskander",
+          "email": "amir@amiriskander.com",
+          "homepage": "https://amiriskander.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.0",
+        "symfony/config": "^3.4|^4.0",
+        "symfony/console": "^3.4|^4.0",
+        "symfony/dependency-injection": "^3.4|^4.0",
+        "symfony/framework-bundle": "^3.4|^4.0",
+        "doctrine/doctrine-bundle": "^1.8",
+        "doctrine/orm": "^2.3",
+        "symfony/yaml": "^3.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.8",
+        "symfony/phpunit-bridge": "^3.4|^4.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "aiskander\\CalendarHolidaysBundle\\": "",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "aiskander\\CalendarHolidaysBundle\\Tests\\": "Tests/",
+        }
     }
-  ],
-  "license": "Apache-2.0",
-  "require": {
-    "php": "^7.0",
-    "symfony/config": "^3.4|^4.0",
-    "symfony/console": "^3.4|^4.0",
-    "symfony/dependency-injection": "^3.4|^4.0",
-    "symfony/framework-bundle": "^3.4|^4.0"
-  },
-  "require-dev": {
-    "doctrine/doctrine-bundle": "^1.8",
-    "doctrine/orm": "^2.3",
-    "friendsofphp/php-cs-fixer": "^2.8",
-    "symfony/phpunit-bridge": "^3.4|^4.0"
-  },
-  "config": {
-    "preferred-install": "dist",
-    "sort-packages": true
-  },
-  "autoload": {
-    "psr-4": { "aiskander\\CalendarHolidaysBundle\\": "" }
-  },
-  "autoload-dev": {
-    "psr-4": { "aiskander\\CalendarHolidaysBundle\\Tests\\": "Tests/" }
-  }
 }
