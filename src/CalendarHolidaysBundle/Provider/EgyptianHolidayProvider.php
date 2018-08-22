@@ -26,7 +26,7 @@ class EgyptianHolidayProvider
         $year = ($year) ?? (int) date('Y');
 
         try {
-            $fileLocator = new FileLocator([__DIR__.'/../Resources/config/holiday_providers']);
+            $fileLocator = new FileLocator([__DIR__ . '/../Resources/config/holiday_providers']);
             $yamlFiles = $fileLocator->locate($country.'.yml', null, false);
             $holidays = Yaml::parseFile($yamlFiles[0]);
 
