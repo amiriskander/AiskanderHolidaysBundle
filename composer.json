@@ -3,7 +3,7 @@
   "description": "Symfony bundle that can be used to manage holidays",
   "homepage": "https://amiriskander.com/doc/current/bundles/calendar-holidays-bundle/index.html",
   "type": "symfony-bundle",
-  "keywords": ["holiday", "calendar"],
+  "keywords": ["holiday", "calendar", "symfony", "bundle"],
   "authors": [
     {
       "name": "Amir Iskander",
@@ -30,9 +30,9 @@
     "sort-packages": true
   },
   "autoload": {
-    "psr-4": { "CalendarHolidaysBundle\\": "src/CalendarHolidaysBundle" }
+    "psr-4": { "aiskander\\CalendarHolidaysBundle\\": "" }
   },
   "autoload-dev": {
-    "psr-4": { "CalendarHolidaysBundle\\Tests\\": "Tests/" }
+    "psr-4": { "aiskander\\CalendarHolidaysBundle\\Tests\\": "Tests/" }
   }
 }
