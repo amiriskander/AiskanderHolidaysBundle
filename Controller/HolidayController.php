@@ -19,7 +19,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 /**
  * Class HolidayController
- * @package Aiskander\HolidaysBundle\Controller
+ * @package Aiskander\CalendarHolidaysBundle\Controller
  */
 class HolidayController extends Controller
 {
@@ -66,16 +66,16 @@ class HolidayController extends Controller
                 ->setProvider(HolidayProviderEnum::OFFICE_HOLIDAYS)
                 ->setType($holiday['type']);
 
-            $holidayForms[] = $this->createForm('Aiskander\HolidaysBundle\Form\HolidayType', $holidayObject)->createView();
+            $holidayForms[] = $this->createForm('Aiskander\CalendarHolidaysBundle\Form\HolidayType', $holidayObject)->createView();
             // $holidayObjects[] = $holidayObject;
             // $holidayObjects->add($holidayObject);
         }
 
-        $bulkHolidayImportForm = $this->createForm('Aiskander\HolidaysBundle\Form\BulkHolidayType')->createView();
+        $bulkHolidayImportForm = $this->createForm('Aiskander\CalendarHolidaysBundle\Form\BulkHolidayType')->createView();
         // $form->handleRequest($request);
 
         return $this->render('@AiskanderHolidays/holiday/import.html.twig', [
-            'forms' => $holidayForms,
+            'forms'     => $holidayForms,
             'bulk_form' => $bulkHolidayImportForm,
         ]);
     }
@@ -86,14 +86,12 @@ class HolidayController extends Controller
     public function newAction(Request $request)
     {
         $holiday = new Holiday();
-        $form = $this->createForm('Aiskander\HolidaysBundle\Form\HolidayType', $holiday);
+        $form = $this->createForm('Aiskander\CalendarHolidaysBundle\Form\HolidayType', $holiday);
         $form->handleRequest($request);
-
         if ($form->isSubmitted() && $form->isValid()) {
             // @TODO
         }
-
-        return $this->render('@AiskanderHolidays/holiday/new.html.twig', array(
+        return $this->render('@AiskanderCalendarHolidays/holiday/new.html.twig', array(
             'holiday' => $holiday,
             'form' => $form->createView(),
         ));
