@@ -22,17 +22,12 @@ class HolidayProviderFactory
     public function create()
     {
         $args = func_get_args();
-
         if (empty($args)) {
             throw new Exception("Missing arguments to create the provider.");
         }
-
         $holidayProvider = array_shift($args);
         $namespace = 'Aiskander\\HolidaysBundle\\Provider\\';
         $targetClass = $namespace.ucfirst($holidayProvider).'HolidayProvider';
-
-        // dump($targetClass); die;
-
         if (class_exists($targetClass)) {
             return new $targetClass(...$args); // using the unpack operator
         } else {

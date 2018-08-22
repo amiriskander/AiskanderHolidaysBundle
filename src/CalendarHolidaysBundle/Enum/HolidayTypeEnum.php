@@ -10,7 +10,8 @@ namespace Aiskander\HolidaysBundle\Enum;
 
 class HolidayTypeEnum
 {
-    const PUBLIC_HOLIDAY = 'public_holiday';
-    const RELIGIOUS_HOLIDAY = 'religious_holiday';
+    const PUBLIC_HOLIDAY        = 'public_holiday';
+    const RELIGIOUS_HOLIDAY     = 'religious_holiday';
     const RELIGIOUS_NON_HOLIDAY = 'religious_non_holiday';
+    const NATIONAL_HOLIDAY      = 'national_holiday';
 }

@@ -1,7 +1,7 @@
 {
   "name": "aiskander/calendar-holidays-bundle",
   "description": "Symfony bundle that can be used to manage holidays",
-  "homepage": "https://amiriskander.com/doc/current/bundles/AiskanderHolidaysBundle/index.html",
+  "homepage": "https://amiriskander.com/doc/current/bundles/calendar-holidays-bundle/index.html",
   "type": "symfony-bundle",
   "keywords": ["holiday", "calendar"],
   "authors": [

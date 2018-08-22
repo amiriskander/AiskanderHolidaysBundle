@@ -10,8 +10,8 @@ namespace Aiskander\HolidaysBundle\Enum;
 
 class ReligionEnum
 {
-    const ALL = 'all';
-    const MUSLIM = 'muslim';
+    const ALL       = 'all';
+    const MUSLIM    = 'muslim';
     const CHRISTIAN = 'christian';
-    const JEWISH = 'jewish';
+    const JEWISH    = 'jewish';
 }
