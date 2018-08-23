@@ -11,7 +11,6 @@ namespace Aiskander\CalendarHolidaysBundle\Controller;
 use Aiskander\CalendarHolidaysBundle\Entity\Holiday;
 use Aiskander\CalendarHolidaysBundle\Enum\HolidayProviderEnum;
 use Aiskander\CalendarHolidaysBundle\Factory\HolidayProviderFactory;
-use Aiskander\CalendarHolidaysBundle\Provider\EgyptianHolidayProvider;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -28,16 +27,13 @@ class HolidayController extends Controller
      */
     protected $holidayProviderFactory;
 
-    protected $holidayProvider;
-
     /**
      * HolidayController constructor.
      * @param HolidayProviderFactory $holidayProviderFactory
      */
-    public function __construct(HolidayProviderFactory $holidayProviderFactory, EgyptianHolidayProvider $holidayProvider)
+    public function __construct(HolidayProviderFactory $holidayProviderFactory)
     {
         $this->holidayProviderFactory = $holidayProviderFactory;
-        $this->holidayProvider = $holidayProvider;
     }
 
     /**
@@ -45,7 +41,8 @@ class HolidayController extends Controller
      */
     public function indexAction(Request $request)
     {
-        $this->holidayProvider->getCountryYearHolidays('egy');
+        $holidayProvider = $this->holidayProviderFactory->create('calculated');
+        $holidayProvider->getCountryYearHolidays('egy');
     }
 
     /**
