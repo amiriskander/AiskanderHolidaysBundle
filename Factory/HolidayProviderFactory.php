@@ -12,7 +12,7 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 
 /**
  * Class HolidayProviderFactory
- * @package Aiskander\HolidaysBundle\Provider
+ * @package Aiskander\CalendarHolidaysBundle\Provider
  */
 class HolidayProviderFactory
 {
@@ -26,7 +26,7 @@ class HolidayProviderFactory
             throw new Exception("Missing arguments to create the provider.");
         }
         $holidayProvider = array_shift($args);
-        $namespace = 'Aiskander\\HolidaysBundle\\Provider\\';
+        $namespace = 'Aiskander\\CalendarHolidaysBundle\\Provider\\';
         $targetClass = $namespace.ucfirst($holidayProvider).'HolidayProvider';
         if (class_exists($targetClass)) {
             return new $targetClass(...$args); // using the unpack operator
